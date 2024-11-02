@@ -1,4 +1,3 @@
-// redux/actions/carsActions.js
 export const setCars = (cars) => ({
     type: 'SET_CARS',
     payload: cars,

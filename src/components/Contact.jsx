@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 const Contact = () => {
     const [formData, setFormData] = useState({ name: '', email: '', message: '' });
     const [errors, setErrors] = useState({});
-    const [successMessage, setSuccessMessage] = useState(''); // Додати стан для успішного повідомлення
+    const [successMessage, setSuccessMessage] = useState('');
 
     const handleChange = (e) => {
         const { name, value } = e.target;
@@ -26,9 +26,8 @@ const Contact = () => {
         e.preventDefault();
         if (validate()) {
             console.log('Форма відправлена:', formData);
-            // Логіка для відправки форми (наприклад, на сервер)
-            setSuccessMessage('Ваше повідомлення надіслано успішно!'); // Відобразити повідомлення про успіх
-            setFormData({ name: '', email: '', message: '' }); // Очищення форми
+            setSuccessMessage('Ваше повідомлення надіслано успішно!');
+            setFormData({ name: '', email: '', message: '' });
             setErrors({});
         }
     };

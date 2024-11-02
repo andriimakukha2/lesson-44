@@ -5,7 +5,7 @@ const About = () => {
     const navigate = useNavigate();
 
     const handleContactClick = () => {
-        navigate('/contact'); // Перехід на сторінку контакту
+        navigate('/contact');
     };
 
     return (

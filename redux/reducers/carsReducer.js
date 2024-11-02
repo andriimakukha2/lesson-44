@@ -1,5 +1,4 @@
 const initialState = [
-    // Список автомобілів, скопійований з вашого контексту
     {
         id: 1,
         name: 'Tesla Model S',

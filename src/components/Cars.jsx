@@ -3,7 +3,7 @@ import CarCard from './CarCard';
 import { useSelector } from 'react-redux';
 
 const Cars = () => {
-    const cars = useSelector((state) => state.cars); // Отримуємо список автомобілів із Redux
+    const cars = useSelector((state) => state.cars);
 
     return (
         <div className="cars">
