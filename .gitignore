@@ -1,0 +1,62 @@
+# System files
+.DS_Store
+Thumbs.db
+
+# Node modules
+node_modules/
+
+# Build directories
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+jspm_packages/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Temporary files
+*.log
+*.tmp
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Webpack cache
+.cache/
+.cache-loader/
+
+# Compiled JavaScript files
+*.tsbuildinfo
+
+# Test output
+coverage/
+*.lcov
+
+# Mac system files
+.DS_Store
+
+# Images processed by webpack
+/src/images/*.jpg
+/src/images/*.png
+
+# Ignore .next folder if using Next.js
+.next/
+
+# Miscellaneous
+*.bak
+*.orig
